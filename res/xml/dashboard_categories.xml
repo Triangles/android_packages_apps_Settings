@@ -110,8 +110,21 @@
         </dashboard-tile>
 
     </dashboard-category>
+		<!-- Triangles Information -->
+    <dashboard-category
+		android:id="@+id/interface_section"
+       		android:title="@string/tta_header_category_interface" >
 
-    <!-- DEVICE -->
+
+        <!-- Triangle Center -->
+        <dashboard-tile
+		android:id="@+id/triangle_center"
+		android:fragment="com.android.settings.triangle.TriangleCenter"
+		android:title="@string/triangle_center"
+		android:icon="@drawable/ic_settings_trianglesection" />
+    </dashboard-category>
+
+
     <dashboard-category
             android:id="@+id/device_section"
             android:title="@string/header_category_device" >
